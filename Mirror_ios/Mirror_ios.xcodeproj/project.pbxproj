@@ -29,6 +29,7 @@
 		5A1F822A2B96FEA2005578A9 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F82292B96FEA2005578A9 /* VideoCapture.swift */; };
 		5A1F822D2B970847005578A9 /* yolov8s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F822C2B970847005578A9 /* yolov8s.mlpackage */; };
 		5A1F82312B9709DD005578A9 /* DrawingBoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F82302B9709DD005578A9 /* DrawingBoundingBoxView.swift */; };
+		5A4CAB7E2BA02E7B00ECD1D6 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CAB7D2BA02E7B00ECD1D6 /* UIImage+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		5A1F82292B96FEA2005578A9 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		5A1F822C2B970847005578A9 /* yolov8s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = yolov8s.mlpackage; path = ../../../../../../../../Downloads/yolov8s.mlpackage; sourceTree = "<group>"; };
 		5A1F82302B9709DD005578A9 /* DrawingBoundingBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBoundingBoxView.swift; sourceTree = "<group>"; };
+		5A4CAB7D2BA02E7B00ECD1D6 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				5A1F82232B95C22F005578A9 /* UILabel+.swift */,
+				5A4CAB7D2BA02E7B00ECD1D6 /* UIImage+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				5A1F822A2B96FEA2005578A9 /* VideoCapture.swift in Sources */,
 				5A1F81C52B95B6BB005578A9 /* AppDelegate.swift in Sources */,
 				5A1F82102B95BDF2005578A9 /* TabbarVC.swift in Sources */,
+				5A4CAB7E2BA02E7B00ECD1D6 /* UIImage+.swift in Sources */,
 				5A1F82162B95BE19005578A9 /* HomeVC.swift in Sources */,
 				5A1F81C72B95B6BB005578A9 /* SceneDelegate.swift in Sources */,
 			);
